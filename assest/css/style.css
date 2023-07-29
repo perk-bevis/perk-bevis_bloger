@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+
+}
+
+.masthead{
+    position: relative;
+    min-height: 1em;
+    margin: 2.625em auto;
+    padding: 0 1.75em;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.inner{
+
+}
+
+.site-branding{
+
+}
+
+.site-element {
+    line-height: 2;
+    color: #007bff; /* Change the icon color to blue (you can use any valid CSS color) */
+    font-size: 24px; /* Change the icon size to 24 pixels */
+}
+
+.site-element a{
+    color:rgba(0,0,0,0.8);
+    margin: 0 5px;
+}
+
+.site-element a:hover{
+    color: rgba(0,0,0,0.3);
+}
+
+.img-logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+
+/* ///// */
+
+
+/*  */
+.site-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.site-description{
+
+}
+
+
+.site-element1{
+
+}
+
+.menu-social{
+    
+}
+
+#slider{
+
+}
+.slider-hd1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.slider-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    /* margin-top:20px; */
+    margin-bottom:5px;
+}
+
+.slider-title{
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.slider-hd113{
+    display:block;
+}
+
+.video-container {
+    padding-left: 50px;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+  .video-item1,
+  .video-item2,
+  .video-item3 {
+    float: left;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .video-item4,
+  .video-item5,
+  .video-item6 {
+    float: left;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+.video-item iframe {
+  width: 100%;
+  height: 200px; /* Set the desired height for the videos */
+}
+
+.place-img{
+    height:70px;
+    padding:10px;
+    border-radius: 50px;
+}
+
+#content{
+
+}
+
+.slider-hdt{
+    padding:16px;
+}
+
+.div-content2{
+    padding: 20px;
+}
+
+.div-content-tx{
+    padding:20px;
+}
+
+.slider-hd11{
+    padding:15px;
+    border-radius: 19px;
+    border: 2px solid #000;
+    box-shadow: 0px 4px 4px;
+}
+
+.slider-hd11:hover{
+    box-shadow: rgba(145, 255, 0, 0.44) 6px 0px 3px;
+    transition: transform 0.25s ease 0s;
+    transform: scale(1.05);
+}
+
+
+
+.slider-hd1{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.slider-hd112{
+    margin-bottom: 10px;
+}
+
+.slider-hd113{
+    margin-bottom: 30px;
+}
+
+.center-btn{
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.place-buy-btn {
+    padding: 5px 11px;
+    background-color: #fc0606;
+    color:#fcf806;
+}
+
+.place-buy-btn-link{
+    text-align: center;
+    padding: 5px 11px;
+    background-color: #00FFFF;
+    color:#fc0606;
+    border-radius: 50px;
+}
+
+.place-buy-btn-link:hover{
+    background-color: #f4aa0d;
+    color:#fff;
+    cursor:pointer;
+}
+
+.place-buy-btn:hover{
+    background-color: #000;
+    color:#fff;
+    cursor:pointer;
+}
+footer{
+    background: rgba(0, 0, 0, 0.05);
+    padding: 15px 0 0 0;
+    margin-top: 70px;
+}
+footer .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer .container .row .col-4{
+    flex-basis: 33.333333%;
+    padding: 0 15px;
+}
+footer p.copyriht{
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+}
+footer .container .row .col-4 img{
+    margin: 10px 0;
+}
+footer .container .row .col-4 .name_website{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer .container .row .col-4 p{
+    font-size: 14px;
+    word-break: break-all;
+}
+footer .container .row .col-4 ul{
+    list-style: none;
+}
+footer .container .row .col-4 ul li{
+    margin: 10px 0;
+
+}
+footer .container .row .col-4 .title{
+    letter-spacing: 1px;
+}
+footer .container .row .col-4 ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+footer .container .row .col-4 ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .container .row .col-4 .text-heading{
+    margin-bottom: 5px;
+}
+
+footer .container .row .col-4 .txtTelephone{
+    padding: 2px 1px;
+}
+
+  
+  
+  
+  
+  
